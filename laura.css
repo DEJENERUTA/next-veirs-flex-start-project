@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  padding-bottom: 1em;
+}
+img {
+  /*width:100%;
+	height:auto;	*/
+}
+/*-------------------*/
+body {
+  background-color: #e7d9cb;
+}
+#wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  color: #704123;
+  font-family: "Raleway", sans-serif;
+}
+h1 {
+  font-size: 4.5em;
+  text-align: center;
+}
+.bold {
+  font-weight: bold;
+}
+section,
+footer {
+  margin: 1em 0;
+  display: flex;
+}
+footer img {
+  border: solid 1px #704123;
+}
+section div {
+  /* KUN FOR AT VISE BLOCKS, HVIS MAN VIL SE DEM ! : */
+  /*background-color:#d0b69f;*/
+  /*border-radius:10px;*/
+}
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+section {
+  display: flex;
+}
+section div {
+  flex: 5;
+  padding: 0.5em;
+}
+section div.img_div {
+  flex: 1;
+}
+footer {
+  justify-content: space-between;
+}
+/* ------------ */
+nav {
+  border: solid 1px #666;
+  margin: 1em 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+.nav1 li {
+  flex: 1;
+  text-align: center;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  padding: 0.5em 0;
+  margin: 0 0.5%;
+}
